@@ -31,14 +31,10 @@ class Stack:
         return self.head.data
     #menampilkan isi stack
     def display(self):
-        current = self.head
-        if not current:
-            print("Stack kosong")
-            return
-        while current:
-            print(current.data, end=" -> ")
-            current = current.next
-        print("None")
+        temp = self.head
+        while temp:
+            print(temp.data)
+            temp = temp.next
 
 # Penggunaan
 mystack = Stack()
