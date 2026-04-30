@@ -29,6 +29,16 @@ class Stack:
         if not self.head:
             return None
         return self.head.data
+    #menampilkan isi stack
+    def display(self):
+        current = self.head
+        if not current:
+            print("Stack kosong")
+            return
+        while current:
+            print(current.data, end=" -> ")
+            current = current.next
+        print("None")
 
 # Penggunaan
 mystack = Stack()
