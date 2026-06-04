@@ -153,7 +153,7 @@ class Penerbangan:
         self.hari_operasi     = hari_operasi     # list of str
         self.kursi            = kursi            # dict
 
-    def __repr__(self):
+    def __repr__(self):  
         return (f"Penerbangan({self.kode_penerbangan}: "
                 f"{self.dari}→{self.ke}, {self.durasi_mnt}mnt)")
 
