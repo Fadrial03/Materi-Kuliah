@@ -26,24 +26,46 @@ Program memungkinkan pengguna untuk:
 
 ---
 
-## Cara Clone Repository
+## Instalasi
 
 ### 1. Clone Repository
 
-Pastikan Git sudah terinstall di komputer kamu, lalu jalankan perintah berikut:
+Pastikan Git sudah terinstal pada komputer, kemudian clone repository menggunakan perintah berikut:
 
 ```bash
-git clone https://github.com/Fadrial03/Materi-Kuliah
+git clone https://github.com/Fadrial03/Materi-Kuliah.git
 ```
 
 ### 2. Masuk ke Direktori Proyek
 
+Setelah proses clone selesai, masuk ke folder proyek dengan menjalankan perintah:
+
 ```bash
-cd skygraf
+cd Materi-Kuliah
 ```
 
----
+### 3. Jalankan Aplikasi
 
+Setelah berada di direktori proyek, jalankan aplikasi sesuai kebutuhan proyek.
+
+---
+## My Contributions 
+
+- Developed **Airport Management (Vertex)** features:
+  - Add Airport
+  - Delete Airport
+  - View Airport Details
+
+- Developed **Flight Route Management (Edge)** features:
+  - Add Route
+  - Delete Route
+  - Route Search and Filtering
+
+- Implemented graph traversal algorithms:
+  - **Breadth-First Search (BFS)**
+  - **Depth-First Search (DFS)**
+
+- Performed testing and validation of graph traversal and route management functionalities.
 ## Cara Menjalankan Program
 
 ### 1. Install Dependency
