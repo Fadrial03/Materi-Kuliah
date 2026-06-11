@@ -36,8 +36,6 @@ Pastikan Git sudah terinstall di komputer kamu, lalu jalankan perintah berikut:
 git clone https://github.com/Fadrial03/Materi-Kuliah
 ```
 
-> Ganti `username` dengan username GitHub pemilik repository.
-
 ### 2. Masuk ke Direktori Proyek
 
 ```bash
