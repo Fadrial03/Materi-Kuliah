@@ -26,6 +26,25 @@ Program memungkinkan pengguna untuk:
 
 ---
 
+## Cara Clone Repository
+
+### 1. Clone Repository
+
+Pastikan Git sudah terinstall di komputer kamu, lalu jalankan perintah berikut:
+
+```bash
+git clone https://github.com/Fadrial03/Materi-Kuliah
+```
+
+
+### 2. Masuk ke Direktori Proyek
+
+```bash
+cd skygraf
+```
+
+---
+
 ## Cara Menjalankan Program
 
 ### 1. Install Dependency
